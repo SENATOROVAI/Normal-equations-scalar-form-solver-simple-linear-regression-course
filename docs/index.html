@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L-BFGS Solver — Research Project</title>
+
+<!-- MathJax -->
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+<h2>L-BFGS Solver</h2>
+<a href="https://github.com/SENATOROVAI/lbfgs-solver-course">GitHub</a>
+</nav>
+
+<header class="hero">
+<h1>Limited-Memory BFGS Solver</h1>
+
+<p>
+A research-oriented implementation and theoretical study of
+the L-BFGS and L-BFGS-B optimization algorithms.
+</p>
+
+<p>
+$$ B_{k+1}s_k = y_k $$
+</p>
+
+</header>
+
+<section>
+<h2>Motivation</h2>
+
+<p>
+Second-order methods provide fast convergence but require Hessian computation.
+L-BFGS approximates curvature efficiently using limited memory.
+</p>
+</section>
+
+<section>
+<h2>Key Properties</h2>
+
+<ul>
+<li>O(nm) memory complexity</li>
+<li>Superlinear convergence (under assumptions)</li>
+<li>Two-loop recursion implementation</li>
+<li>Wolfe line-search stability</li>
+</ul>
+</section>
+
+<footer>
+<p>MIT License — 2026</p>
+</footer>
+
+</body>
+</html>
