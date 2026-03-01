@@ -11,7 +11,7 @@ This document helps resolve common issues, errors, and problems encountered when
 **Symptoms:**
 ```
 
-ModuleNotFoundError: No module named 'lbfgs'
+ModuleNotFoundError: No module named 'Normal equations'
 
 ````
 
