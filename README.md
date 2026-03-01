@@ -86,7 +86,7 @@ $$
 
 ---
 
-## Closed-Form Solution (Scalar Version)
+## Closed-Form Solution (Scalar form)
 
 For simple linear regression, the coefficients can also be written explicitly:
 
